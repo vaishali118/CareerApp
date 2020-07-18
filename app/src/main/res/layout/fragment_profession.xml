@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_seven">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edit_text">
+
+                <ImageView
+                    android:id="@+id/imgchart"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/chartedacc"
+                    android:background="@drawable/rlayout_bg"
+                    android:scaleType="fitCenter"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="50dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Charted Accountant"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgchart"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+
+                android:layout_toRightOf="@id/rl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edit_text">
+
+                <ImageView
+                    android:id="@+id/imgbanker"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/banker"
+                    android:background="@drawable/rlayout_bg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="50dp"
+                    android:paddingLeft="18dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Banker"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgbanker"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl2">
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edit_text">
+
+                <ImageView
+                    android:id="@+id/imgfinance"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/rlayout_bg"
+                    android:src="@drawable/finance" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="50dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Finance"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgfinance"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@id/rl4"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edit_text">
+
+                <ImageView
+                    android:id="@+id/imgengg"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/engineer"
+                    android:background="@drawable/rlayout_bg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="50dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Engineer"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgengg"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl4">
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

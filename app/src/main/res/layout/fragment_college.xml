@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_seven">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="@drawable/layoutbg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/iitdel"
+                    android:layout_margin="20dp"
+                    android:id="@+id/imgIITdel" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Indian Institue of Technology"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgIITdel"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/txt1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="4.4"
+                    android:layout_toRightOf="@id/imgIITdel"
+                    android:layout_below="@id/txt1"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+
+                    android:id="@+id/txt2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fees : 4.47 Lakh"
+                    android:layout_toRightOf="@id/imgIITdel"
+                    android:layout_below="@id/txt2"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:id="@+id/txt3"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layoutbg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/jmi"
+                    android:layout_margin="20dp"
+
+                    android:id="@+id/imgJMI"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Jamia Millia Islamia"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgJMI"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/txt4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="4.2"
+                    android:layout_toRightOf="@id/imgJMI"
+                    android:layout_below="@id/txt4"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+
+                    android:id="@+id/txt5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fees : 43,400"
+                    android:layout_toRightOf="@id/imgJMI"
+                    android:layout_below="@id/txt5"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:id="@+id/txt6"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/layoutbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <ImageView
+                    android:id="@+id/imgDTU"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+
+                    android:src="@drawable/dtu" />
+
+                <TextView
+                    android:id="@+id/txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/imgDTU"
+                    android:text="Delhi Technical University"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt7"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/imgDTU"
+                    android:text="4.3"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt8"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/imgDTU"
+                    android:text="Fees : 7.81 Lakh"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@drawable/layoutbg"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/iiit"
+                    android:layout_margin="20dp"
+
+                    android:id="@+id/imgIIIT"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Indraprastha Institute of Information Technology"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgIIIT"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/txt10"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="4.5"
+                    android:layout_toRightOf="@id/imgIIIT"
+                    android:layout_below="@id/txt10"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+
+                    android:id="@+id/txt11"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fees : 16.24 Lakh"
+                    android:layout_toRightOf="@id/imgIIIT"
+                    android:layout_below="@id/txt11"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:id="@+id/txt12"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@drawable/layoutbg"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/nsit"
+                    android:layout_margin="20dp"
+
+                    android:id="@+id/imgNsit"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Netaji Subhas University of Technology"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgNsit"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/txt13"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="4.0"
+                    android:layout_toRightOf="@id/imgNsit"
+                    android:layout_below="@id/txt13"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+
+                    android:id="@+id/txt14"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fees : 7.81 Lakh"
+                    android:layout_toRightOf="@id/imgNsit"
+                    android:layout_below="@id/txt14"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:id="@+id/txt15"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@drawable/layoutbg"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ggsipu"
+                    android:layout_margin="20dp"
+
+                    android:id="@+id/imgGSS"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Guru Gobind Singh Indraprastha University"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgGSS"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/txt16"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="3.8"
+                    android:layout_toRightOf="@id/imgGSS"
+                    android:layout_below="@id/txt16"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+
+                    android:id="@+id/txt17"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fees : 10.12 Lak=h"
+                    android:layout_toRightOf="@id/imgGSS"
+                    android:layout_below="@id/txt17"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:id="@+id/txt18"/>
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

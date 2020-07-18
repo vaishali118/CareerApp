@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyticalActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_seven">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAnalytical"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimaryDark" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/appBar"
+        android:orientation="horizontal"
+        android:id="@+id/rlyaout1"
+        android:background="@drawable/rlayout_bg">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1. "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtQ1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_analytical_one"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtQues1"
+            android:layout_toRightOf="@id/txtQ1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A1. "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtAns1"
+            android:layout_below="@id/txtQ1"
+            android:layout_marginTop="54dp"
+            android:layout_marginStart="10dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120 meteres"
+            android:textSize="18sp"
+            android:layout_below="@id/txtQues1"
+            android:layout_toRightOf="@id/txtAns1"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radio120"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="180 meteres"
+            android:textSize="18sp"
+            android:layout_below="@id/txtQues1"
+            android:layout_toRightOf="@id/radio120"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="64dp"
+            android:id="@+id/radio180"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="324 meteres"
+            android:textSize="18sp"
+            android:layout_below="@id/radio120"
+            android:layout_toRightOf="@id/txtAns1"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radio324"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150 meteres"
+            android:textSize="18sp"
+            android:layout_below="@id/radio180"
+            android:layout_toRightOf="@id/radio324"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="64dp"
+            android:id="@+id/radio150"
+            android:layout_marginBottom="10dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/appBar"
+        android:orientation="horizontal"
+        android:id="@+id/rlyaout2"
+        android:background="@drawable/rlayout_bg">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2. "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtQ2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_two_analytical"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginEnd="4dp"
+            android:id="@+id/txtQues2"
+            android:layout_toRightOf="@id/txtQ2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A2. "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtAns2"
+            android:layout_below="@id/txtQ2"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="10dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 650"
+            android:textSize="18sp"
+            android:layout_below="@id/txtQues2"
+            android:layout_toRightOf="@id/txtAns2"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioRs650"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 650"
+            android:textSize="18sp"
+            android:layout_below="@id/txtQues2"
+            android:layout_toRightOf="@id/radioRs650"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="115dp"
+            android:id="@+id/radioRs690"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 698"
+            android:textSize="18sp"
+            android:layout_below="@id/radioRs650"
+            android:layout_toRightOf="@id/txtAns2"
+            android:layout_marginTop="8dp"
+            android:id="@+id/radioRs698"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 700"
+            android:textSize="18sp"
+            android:layout_below="@id/radioRs690"
+            android:layout_toRightOf="@id/radioRs698"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="115dp"
+            android:id="@+id/radioRs700"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Finish"
+        android:layout_marginStart="20dp"
+        android:background="#151E3D"
+        android:layout_marginTop="60dp"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnAnalytical"
+        />
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategroyActivity"
+    android:background="@drawable/bg_seven">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take these Tests: "
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tagline"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:fitsSystemWindows="true"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rlayoutCareer"
+            android:background="@drawable/rlayout_bg">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrer Personality Test"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#151E3D"
+                android:textSize="20dp"
+                android:id="@+id/txtCareer"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/career"
+                android:layout_toRightOf="@id/txtCareer"
+                android:layout_marginStart="40dp"/>
+
+
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rlayout_bg"
+                android:id="@+id/rlayoutAnalytical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Analytical Skill Test"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#151E3D"
+                    android:textSize="20dp"
+                    android:id="@+id/txtAnalytical"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/axis"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toRightOf="@id/txtAnalytical"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/rlayout_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Courses Undertaken"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#151E3D"
+                    android:textSize="20dp"
+                    android:id="@+id/txtCourses"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"/>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/window"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/txtCourses"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rlayout_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hobbies"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#151E3D"
+                    android:textSize="20dp"
+                    android:id="@+id/txtHobbies"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+                    />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/disco_ball"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toRightOf="@id/txtHobbies"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finished"
+            android:textSize="20sp"
+            android:background="#151E3D"
+            android:textColor="@android:color/white"
+            android:layout_margin="20dp"
+            android:id="@+id/btnStart"/>
+    </LinearLayout>
+    </ScrollView>
+

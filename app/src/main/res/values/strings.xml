@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CareerApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tagline">These will help you come over all your jumbled thoughts , and make you see your positive and negative aspects clearly, Go ahead.INTROSPECT!</string>
+    <string name="what_is_the_most_passionate_job_you_have_thought_yourself_of_being_into">What is the most passionate job you have thought yourself of being into?</string>
+    <string name="question_two">Do you think one should follow the career selected for her/him by their parents directly?</string>
+    <string name="question_analytical_one">A train running at the speed of 60 km/hr crosses a pole in 9 seconds. what is the length of the train?</string>
+    <string name="question_two_analytical">A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years.The sum is:</string>
+    <string name="sharedPreference">Career App Shared Preference</string>
+</resources>
